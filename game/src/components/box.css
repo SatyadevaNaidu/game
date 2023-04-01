@@ -1,0 +1,129 @@
+.hats-buckets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+}
+
+
+
+/* styles for the Hats component */
+
+.hats-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+
+  .hat-value {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+
+  #val-text {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  /* global styles */
+
+  :root {
+    --font-size: 16px;
+    --primary-color: #007bff;
+    --spacing: 10px;
+  }
+
+  body {
+    font-size: var(--font-size);
+    line-height: 1.5;
+    color: #333;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: var(--spacing);
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+
+
+
+
+.box1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 140, 0);
+    background-image: url(../assests/bye3.gif);
+    background-size: 100% 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 140, 0);
+    background-image: url(../assests/bye3.gif);
+    background-size: 100% 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.box3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 140, 0);
+    background-image: url(../assests/bye3.gif);
+    background-size: 100% 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box4{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 140, 0);
+    background-image: url(../assests/bye3.gif);
+    background-size: 100% 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.box5{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 140, 0);
+    background-image: url(../assests/bye3.gif);
+    background-size: 100% 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+

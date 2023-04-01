@@ -1,0 +1,48 @@
+/* styles for the Hats component */
+
+.hats-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+.hat-value {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+#val-text {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* global styles */
+
+:root {
+  --font-size: 16px;
+  --primary-color: #007bff;
+  --spacing: 10px;
+}
+
+body {
+  font-size: var(--font-size);
+  line-height: 1.5;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: var(--spacing);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+

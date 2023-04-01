@@ -1,0 +1,43 @@
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  height: 150px;
+  width: 600px;
+  border: 2px solid black;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 90px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.mode-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.mode-container label {
+  margin: 0px 10px;
+  font-size: 18px;
+}
+
+.status-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.status-container p {
+  margin: 0px 10px;
+  font-size: 18px;
+}

@@ -1,0 +1,72 @@
+.Home .lander {
+    padding: 80px 0;
+    text-align: center;
+  }
+
+.Home .lander h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.Home .lander p {
+    color: #999;
+}
+
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+    cursor: pointer;
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+.App-logo {
+    animation: App-logo-spin infinite 5s linear;
+}
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.btn {
+  font-size: 1em;
+  padding: 10px 20px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  animation: flash 2.5s infinite;
+  font-weight: 800;
+}
+
+@keyframes flash {
+  0% {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+  }
+  50% {
+    background-color: #fff;
+    border-color: #fff;
+    color: #28a745;
+  }
+  100% {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+  }
+}
+
+/* add keyframes for the fade-in and blink animations */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
